@@ -1,0 +1,53 @@
+ {{ define "index.html" }}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+</head>
+<h2>FİLM APİ WEB SERVİCES </h2>
+
+<body>
+
+    <h1>
+		<p> {{ .title }} </p>
+        <a href="localhost:8080/movie/ımdb9">IMDB 9 JSON DATA </a>
+
+	</h1>
+
+
+    <h1>
+		<p> {{ .title }} </p>
+        <a href="localhost:8080/movie/ımdb8">IMDB 8 JSON DATA </a>
+
+	</h1>
+
+
+    <h1>
+		<p> {{ .title }} </p>
+        <a href="localhost:8080/movie/ımdb7">IMDB 7 JSON DATA </a>
+
+	</h1>
+
+
+    <h1>
+		<p> {{ .title }} </p>
+        <a href="localhost:8080/movie/ımdb6">IMDB 6 JSON DATA </a>
+
+	</h1>
+
+
+    <h1>
+		<p> {{ .title }} </p>
+        <a href="localhost:8080/movie/ımdb5">IMDB 5 JSON DATA </a>
+
+	</h1>
+
+
+
+</body>
+</html>
+{{ end }}
